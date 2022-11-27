@@ -88,6 +88,10 @@ const users = [
 
 function notDuplicatesObjects(array) {
 
-
+  return array.filter((element, index, arr) => { 
+   if(arr.indexOf(element.name) === index){
+    
+   }
+  });
 
 }
